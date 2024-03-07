@@ -20,6 +20,7 @@ class BotAPI(MethodView):
         return '<h1>Hi Bot_Class</h1>'
 
     def post(self):
+        resp = request.get_json()
         print(resp)
         return '<h1>Hi Telegram_Class</h1>'
 
