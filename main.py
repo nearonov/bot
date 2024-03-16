@@ -87,11 +87,12 @@ class BotAPI(MethodView):
         return '<h1>Hi Telegram_Class</h1>'
 
 
+
+
 app.add_url_rule('/TOKEN/', view_func=BotAPI.as_view('bot'))
 
 if __name__ == "__main__":
     app.run()
 
 
-.env.py
-TOKEN=7071566085:AAFA6NfFl8rVNC8g5RPgrBco8OnP-pg1tDc
+
